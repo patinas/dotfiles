@@ -130,13 +130,25 @@ migrated=true
 network-monitor-gio-name=''
 
 [org/gnome/gedit/plugins]
-active-plugins=['openlinks', 'filebrowser', 'sort', 'modelines', 'docinfo', 'spell']
+active-plugins=['filebrowser', 'spell', 'sort', 'docinfo', 'modelines', 'openlinks']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/user/Downloads/ghost-to-md-output'
 
 [org/gnome/gedit/preferences/editor]
 scheme='pop-dark'
 
 [org/gnome/gedit/preferences/ui]
 show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(450, 441)
+state=87168
 
 [org/gnome/mutter]
 edge-tiling=false
@@ -147,8 +159,8 @@ default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
-initial-size=(924, 1000)
-maximized=true
+initial-size=(924, 488)
+maximized=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
