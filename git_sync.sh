@@ -20,9 +20,9 @@ git push -q
 
 
 sudo apt install dconf* -y
-rsync -avuzP /home/user/dotfiles/* /home/user/*
+rsync -avuz /home/user/dotfiles/* /home/user/*
 dconf load / < settings.dconf
-rsync -avuzP /home/user/settings.dconf /home/user/dotfiles/
+rsync -avuz /home/user/settings.dconf /home/user/dotfiles/
 dconf dump / > /home/user/dotfiles/settings.dconf
 
 ZK_PATH="/home/user/dotfiles"
