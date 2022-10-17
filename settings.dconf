@@ -14,7 +14,7 @@ cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='keyboard'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -100,6 +100,7 @@ picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc
 idle-delay=uint32 0
 
 [org/gnome/desktop/wm/keybindings]
+minimize=['<Super>s']
 switch-applications=['<Alt>Tab']
 switch-applications-backward=['<Shift><Alt>Tab']
 switch-windows=['<Super>Tab']
@@ -162,6 +163,7 @@ show-title=false
 tile-by-default=true
 tile-resize-left=['<Shift>Left', '<Shift>h']
 tile-resize-right=['<Shift>Right', '<Shift>l']
+toggle-stacking-global=@as []
 
 [org/gnome/shell/extensions/screenshot]
 backend='gnome-screenshot'
