@@ -59,6 +59,9 @@ application-id='firefox.desktop'
 [org/gnome/desktop/notifications/application/gnome-control-center]
 application-id='gnome-control-center.desktop'
 
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
 [org/gnome/desktop/notifications/application/google-chrome]
 application-id='google-chrome.desktop'
 
@@ -87,7 +90,11 @@ default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
+initial-size=(924, 1000)
 maximized=true
+
+[org/gnome/settings-daemon/plugins/media-keys]
+play=['<Shift>KP_Begin']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
 binding='Launch1'
