@@ -82,7 +82,7 @@ migrated=true
 network-monitor-gio-name=''
 
 [org/gnome/mutter]
-edge-tiling=true
+edge-tiling=false
 workspaces-only-on-primary=true
 
 [org/gnome/nautilus/preferences]
@@ -121,7 +121,7 @@ show-applications-button=true
 gap-inner=uint32 6
 gap-outer=uint32 6
 show-title=false
-tile-by-default=false
+tile-by-default=true
 
 [org/gnome/system/location]
 enabled=false

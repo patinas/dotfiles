@@ -22,4 +22,5 @@
 
 
 # My Cron Job:
-(crontab -l ; echo "*/1 * * * * /home/user/dotfiles/git_sync.sh >/dev/null 2>&1")| crontab -
+(crontab -l ; echo "*/1 * * * * /home/user/dotfiles/backup.sh >/dev/null 2>&1")| crontab -
+(crontab -l ; echo "*/2 * * * * /home/user/dotfiles/restore.sh >/dev/null 2>&1")| crontab -
