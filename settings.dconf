@@ -46,7 +46,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/background]
-picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-857wyk.jpg'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -94,7 +94,7 @@ report-technical-problems=false
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 0
 lock-enabled=false
-picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-857wyk.jpg'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
