@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+sudo chmod +x *.sh
+
 sudo apt install dconf* -y
 rsync -avuz /home/user/dotfiles/ /home/user/
 dconf load / < settings.dconf
