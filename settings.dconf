@@ -69,7 +69,7 @@ color-scheme='prefer-dark'
 gtk-theme='Pop-dark'
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit']
+application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit', 'gnome-power-panel']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
