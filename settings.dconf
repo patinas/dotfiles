@@ -6,7 +6,7 @@ window-y=32
 
 [com/system76/hidpi]
 enable=false
-mode='lodpi'
+mode='hidpi'
 
 [com/uploadedlobster/peek]
 interface-open-file-manager=true
@@ -18,7 +18,7 @@ cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='wifi'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
