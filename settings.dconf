@@ -46,7 +46,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-retro1.png'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-kx3dl1.jpg'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -94,7 +94,7 @@ report-technical-problems=false
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 0
 lock-enabled=false
-picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-retro1.png'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-kx3dl1.jpg'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
@@ -156,6 +156,13 @@ show-title=false
 tile-by-default=true
 tile-resize-left=['<Shift>Left', '<Shift>h']
 tile-resize-right=['<Shift>Right', '<Shift>l']
+
+[org/gnome/shell/extensions/screenshot]
+backend='gnome-screenshot'
+click-action='show-menu'
+clipboard-action='set-image-data'
+copy-button-action='set-image-data'
+effect-rescale=100
 
 [org/gnome/system/location]
 enabled=false
