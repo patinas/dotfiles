@@ -64,7 +64,7 @@ clock-format='24h'
 color-scheme='prefer-dark'
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome']
+application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -77,6 +77,9 @@ application-id='gnome-power-panel.desktop'
 
 [org/gnome/desktop/notifications/application/google-chrome]
 application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
@@ -118,6 +121,12 @@ switch-windows-backward=['<Shift><Super>Tab']
 [org/gnome/evolution-data-server]
 migrated=true
 network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['openlinks', 'filebrowser', 'sort', 'modelines', 'docinfo', 'spell']
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
 
 [org/gnome/mutter]
 edge-tiling=false
