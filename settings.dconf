@@ -14,7 +14,7 @@ cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='background'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -46,7 +46,12 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
 picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
+picture-uri-dark='file:///usr/share/backgrounds/pop/kate-hazen-mort1mer.png'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -92,9 +97,13 @@ two-finger-scrolling-enabled=true
 report-technical-problems=false
 
 [org/gnome/desktop/screensaver]
+color-shading-type='solid'
 lock-delay=uint32 0
 lock-enabled=false
-picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-mort1mer.png'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
@@ -190,3 +199,15 @@ window-size=(805, 374)
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=150
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(2249, 121)
+window-size=(1262, 822)
