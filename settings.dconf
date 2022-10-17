@@ -18,7 +18,7 @@ cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='bluetooth'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
