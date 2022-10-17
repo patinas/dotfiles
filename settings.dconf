@@ -184,6 +184,9 @@ effect-rescale=100
 [org/gnome/system/location]
 enabled=false
 
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+font='Fira Mono 13'
+
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
