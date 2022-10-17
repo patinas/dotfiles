@@ -20,7 +20,7 @@ git push -q
 
 
 sudo apt install dconf* -y
-rsync -avuz /home/user/dotfiles/* /home/user/*
+rsync -avuz /home/user/dotfiles/ /home/user/
 dconf load / < settings.dconf
 rsync -avuz /home/user/settings.dconf /home/user/dotfiles/
 dconf dump / > /home/user/dotfiles/settings.dconf
