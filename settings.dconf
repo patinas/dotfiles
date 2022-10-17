@@ -14,7 +14,7 @@ cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='network'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -46,7 +46,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/background]
-picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-vqxp75.png'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-rr3yow.jpg'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -94,7 +94,7 @@ report-technical-problems=false
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 0
 lock-enabled=false
-picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-vqxp75.png'
+picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-rr3yow.jpg'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
@@ -122,6 +122,7 @@ initial-size=(924, 1000)
 maximized=true
 
 [org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
 next=['<Shift>KP_Right']
 play=['<Shift>KP_Begin']
 previous=['<Shift>KP_Left']
@@ -130,6 +131,11 @@ previous=['<Shift>KP_Left']
 binding='Launch1'
 command='gnome-control-center wifi'
 name='WiFi'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>w'
+command='google-chrome'
+name='Google Chrome'
 
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
