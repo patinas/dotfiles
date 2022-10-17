@@ -40,6 +40,9 @@ categories=['X-SuSE-YaST']
 name='suse-yast.directory'
 translate=true
 
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-retro1.png'
+
 [org/gnome/desktop/input-sources]
 current=uint32 0
 per-window=false
@@ -86,6 +89,7 @@ report-technical-problems=false
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 0
 lock-enabled=false
+picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-retro1.png'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
