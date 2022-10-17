@@ -4,6 +4,11 @@ window-height=521
 window-x=50
 window-y=32
 
+[com/uploadedlobster/peek]
+interface-open-file-manager=true
+persist-window-geometry=(536, 330, 500, 300)
+recording-start-delay=0
+
 [io/elementary/appcenter/settings]
 cached-drivers=['open-vm-tools-desktop']
 last-refresh-time=int64 1665993675
@@ -134,6 +139,7 @@ sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
+enabled-extensions=['ding@rastersoft.com', 'pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-dock@system76.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'gnome-shell-screenshot@ttll.de']
 welcome-dialog-last-shown-version='42.3.1'
 
 [org/gnome/shell/extensions/dash-to-dock]
