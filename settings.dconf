@@ -18,7 +18,7 @@ cached-drivers=@as []
 last-refresh-time=int64 1666080094
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='keyboard'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -163,10 +163,11 @@ initial-size=(924, 1000)
 maximized=true
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
 next=['<Shift>KP_Right']
 play=['<Shift>KP_Begin']
 previous=['<Shift>KP_Left']
+www=@as []
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
 binding='Launch1'
@@ -177,6 +178,11 @@ name='WiFi'
 binding='<Super>w'
 command='google-chrome'
 name='Google Chrome'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>b'
+command='sh /home/user/dotfiles/backup.sh'
+name='Backup Settings'
 
 [org/gnome/settings-daemon/plugins/power]
 ambient-enabled=false
