@@ -4,10 +4,13 @@ window-height=521
 window-x=50
 window-y=32
 
+<<<<<<< HEAD
 [com/system76/hidpi]
 enable=false
 mode='hidpi'
 
+=======
+>>>>>>> 7166c3e (Last Sync: 2022-10-17 16:10:04)
 [com/uploadedlobster/peek]
 interface-open-file-manager=true
 persist-window-geometry=(536, 330, 500, 300)
@@ -66,7 +69,6 @@ xkb-options=@as []
 [org/gnome/desktop/interface]
 clock-format='24h'
 color-scheme='prefer-dark'
-gtk-theme='Pop-dark'
 
 [org/gnome/desktop/notifications]
 application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit', 'gnome-power-panel']
@@ -99,8 +101,6 @@ numlock-state=true
 speed=0.073529411764705843
 
 [org/gnome/desktop/peripherals/touchpad]
-speed=0.16176470588235303
-tap-to-click=false
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
@@ -136,9 +136,6 @@ active-plugins=['filebrowser', 'spell', 'sort', 'docinfo', 'modelines', 'openlin
 root='file:///'
 tree-view=true
 virtual-root='file:///home/user/Downloads/ghost-to-md-output'
-
-[org/gnome/gedit/preferences/editor]
-scheme='pop-dark'
 
 [org/gnome/gedit/preferences/ui]
 show-tabs-mode='auto'
@@ -179,7 +176,6 @@ command='google-chrome'
 name='Google Chrome'
 
 [org/gnome/settings-daemon/plugins/power]
-ambient-enabled=false
 idle-dim=false
 sleep-inactive-ac-timeout=1800
 sleep-inactive-ac-type='nothing'
