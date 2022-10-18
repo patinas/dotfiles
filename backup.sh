@@ -10,10 +10,10 @@ dconf dump / > /home/user/dotfiles/settings.dconf
 git config --global user.email andreas.patinas@gmail.com
 git config --global user.name patinas
 
-git add .
+
 ZK_PATH="/home/user/dotfiles"
 cd "$ZK_PATH"
-git pull
+git pull orgin main
 CHANGES_EXIST="$(git status --porcelain | wc -l)"
 if [ "$CHANGES_EXIST" -eq 0 ]; then
 	exit 0
