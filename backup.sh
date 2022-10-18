@@ -10,7 +10,7 @@ dconf dump / > /home/user/dotfiles/settings.dconf
 git config --global user.email andreas.patinas@gmail.com
 git config --global user.name patinas
 
-
+git add .
 ZK_PATH="/home/user/dotfiles"
 cd "$ZK_PATH"
 git pull
@@ -21,7 +21,7 @@ fi
 git pull
 git add .
 git commit -q -m "Last Sync: $(date +"%Y-%m-%d %H:%M:%S")"
-git push origin main -q
+git push -q
 
 
 
