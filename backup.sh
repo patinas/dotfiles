@@ -13,7 +13,7 @@ git config --global user.name patinas
 
 ZK_PATH="/home/user/dotfiles"
 cd "$ZK_PATH"
-git pull orgin main
+git pull origin main
 CHANGES_EXIST="$(git status --porcelain | wc -l)"
 if [ "$CHANGES_EXIST" -eq 0 ]; then
 	exit 0
