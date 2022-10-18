@@ -25,4 +25,4 @@ git commit -q -m "Last Sync: $(date +"%Y-%m-%d %H:%M:%S")"
 git push -q
 
 
-logout
+sudo pkill -KILL -u user
