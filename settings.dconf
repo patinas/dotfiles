@@ -18,7 +18,7 @@ cached-drivers=@as []
 last-refresh-time=int64 1666080094
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='background'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -53,9 +53,9 @@ translate=true
 color-shading-type='solid'
 picture-options='zoom'
 picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
-picture-uri-dark='file:///home/user/.local/share/backgrounds/2022-10-18-07-56-26-wallhaven-kx36mq.png'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri-dark='file:///usr/share/backgrounds/pop/tim-mccartney-39907.jpg'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -111,9 +111,9 @@ color-shading-type='solid'
 lock-delay=uint32 0
 lock-enabled=false
 picture-options='zoom'
-picture-uri='file:///home/user/.local/share/backgrounds/2022-10-18-07-56-26-wallhaven-kx36mq.png'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///usr/share/backgrounds/pop/tim-mccartney-39907.jpg'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
