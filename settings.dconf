@@ -181,7 +181,7 @@ name='Google Chrome'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Super>b'
-command='sh /home/user/dotfiles/backup.sh && sudo pkill -KILL -u user'
+command='sh /home/user/dotfiles/backup.sh | sudo pkill -KILL -u user'
 name='Backup Settings'
 
 [org/gnome/settings-daemon/plugins/power]
