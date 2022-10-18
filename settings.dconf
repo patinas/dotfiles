@@ -4,24 +4,17 @@ window-height=521
 window-x=50
 window-y=32
 
-<<<<<<< HEAD
-[com/system76/hidpi]
-enable=false
-mode='hidpi'
-
-=======
->>>>>>> 7166c3e (Last Sync: 2022-10-17 16:10:04)
 [com/uploadedlobster/peek]
 interface-open-file-manager=true
 persist-window-geometry=(536, 330, 500, 300)
 recording-start-delay=0
 
 [io/elementary/appcenter/settings]
-cached-drivers=['open-vm-tools-desktop']
-last-refresh-time=int64 1665993675
+cached-drivers=@as []
+last-refresh-time=int64 1666080094
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='keyboard'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -56,9 +49,9 @@ translate=true
 color-shading-type='solid'
 picture-options='zoom'
 picture-uri='file:///home/user/.config/variety/Downloaded/wallhaven_wallhaven_cc_toplist_page_2/wallhaven-zygepj.png'
-picture-uri-dark='file:///usr/share/backgrounds/pop/kate-hazen-mort1mer.png'
-primary-color='#000000'
-secondary-color='#000000'
+picture-uri-dark='file:///home/user/.local/share/backgrounds/2022-10-18-07-56-26-wallhaven-kx36mq.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -71,7 +64,7 @@ clock-format='24h'
 color-scheme='prefer-dark'
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit', 'gnome-power-panel']
+application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'firefox', 'google-chrome', 'org-gnome-gedit']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -111,9 +104,9 @@ color-shading-type='solid'
 lock-delay=uint32 0
 lock-enabled=false
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-mort1mer.png'
-primary-color='#000000'
-secondary-color='#000000'
+picture-uri='file:///home/user/.local/share/backgrounds/2022-10-18-07-56-26-wallhaven-kx36mq.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 0
@@ -130,12 +123,7 @@ migrated=true
 network-monitor-gio-name=''
 
 [org/gnome/gedit/plugins]
-active-plugins=['filebrowser', 'spell', 'sort', 'docinfo', 'modelines', 'openlinks']
-
-[org/gnome/gedit/plugins/filebrowser]
-root='file:///'
-tree-view=true
-virtual-root='file:///home/user/Downloads/ghost-to-md-output'
+active-plugins=['openlinks', 'filebrowser', 'sort', 'modelines', 'docinfo', 'spell']
 
 [org/gnome/gedit/preferences/ui]
 show-tabs-mode='auto'
@@ -144,8 +132,8 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(450, 441)
-state=87168
+size=(924, 985)
+state=87040
 
 [org/gnome/mutter]
 edge-tiling=false
@@ -156,8 +144,8 @@ default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
-initial-size=(924, 488)
-maximized=false
+initial-size=(924, 1000)
+maximized=true
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
@@ -240,5 +228,5 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(2249, 121)
+window-position=(2552, 121)
 window-size=(1262, 822)
